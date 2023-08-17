@@ -1,0 +1,34 @@
+table {
+	width: 70%;
+	clear: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+}
+thead {
+	text-align: center;
+}
+tbody {
+	text-align: center;
+	color: black;
+	margin: 0.15em 0;
+}
+img {
+	margin: 0 0;
+	padding: 0 0;
+	width: 256px;
+	height: 256px;
+}
+th {
+	font-size: 250%;
+	margin: 0 0;
+	padding: 0 0;
+}
+td h3 {
+	margin: 0.25em 0;
+	padding: 0 0;
+}
+td p {
+	margin: 0 0;
+	padding: 0 0;
+}

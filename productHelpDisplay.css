@@ -1,0 +1,24 @@
+#name{
+  font-size: 150%;
+  float:right;
+  margin-top: 125px;
+  margin-right: 400px;
+}
+
+#image img{
+  float: left;
+  width: 45%;
+  height: 75%;
+}
+
+#desc{
+  float: right;
+  font-size: 150%;
+  margin-right: 75px;
+  margin-top: 50px;
+  width: 40%;
+}
+
+.overallTxt name{
+  border: 15px solid black;
+}

@@ -1,0 +1,68 @@
+#main
+{
+	width: 100%;
+}
+
+#categoryList
+{
+	list-style-type: none;
+	background: black;
+	margin: 0 0 0 0;
+	padding-top: 1em;
+	padding-bottom: 0.95em;
+	text-align: center;
+}
+#categoryList li
+{
+	display: inline;
+}
+#categoryList a
+{
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	width: 100px;
+	margin: 0 5em 5em;
+}
+#categoryList a:hover {
+	background-color: white;
+	color: black;
+}
+
+table
+{
+	float: left;
+	width: 50%;
+	border: 1px solid black;
+}
+
+#shopItem img
+{
+	width: 635px;
+}
+#shopItem table
+{
+	float: left;
+	width: 80%;
+}
+
+#prodName
+{
+	font-size: 130%;
+	font-weight: bold;
+}
+#brandName
+{
+
+}
+
+#priceView input
+{
+	float: left;
+	margin: 1em 0;
+	padding: 0 0.25em;
+	background-color: steelblue;
+	color: white;
+	font-weight: bold;
+}

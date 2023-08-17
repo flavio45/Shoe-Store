@@ -1,0 +1,19 @@
+input{
+  width: 20em;
+  height: 3em;
+  margin-left: 5em;
+  margin-bottom: 1em;}
+
+h2{
+  font-size: 3em;
+  margin-left: 11em;
+  margin-bottom: .5em;}
+
+p{
+  margin-left: 36em;
+}
+
+#ContButton{
+color: white;
+background-color: black;
+width: 20.5em;} /* 20.5em*/

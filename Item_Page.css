@@ -1,0 +1,64 @@
+#shopItem
+{
+	width: 85%;
+	margin: auto;
+}
+#formTable
+{
+	width: 100%;
+}
+
+.form-inline 
+{  
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.form-inline label 
+{
+	width: 30px;
+	margin: 5px 10px 5px 0;
+	padding: 0 0;
+	text-align: right;
+}
+
+.form-inline select 
+{
+	margin: 5px 10px 5px 0;
+	border: 1px solid black;
+	display: inline;
+}
+
+#prodName
+{
+	text-align: left;
+	font-size: 170%;
+	font-weight: bold;
+}
+#brandName
+{
+	text-align: left;
+	font-weight: bold;
+}
+#listPrice
+{
+	text-align: left;
+}
+#prodDesc
+{
+	font-weight: bold;
+	float: left;
+	text-align: left;
+	width: 100%;
+}
+
+#addToCart
+{
+	float: left;
+	margin: 0 0;
+	padding: 0 0.25em;
+	background-color: steelblue;
+	color: white;
+	font-weight: bold;
+}

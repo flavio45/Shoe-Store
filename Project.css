@@ -1,0 +1,325 @@
+/* body section*/
+#body {
+  max-height: 5000px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+/*end body*/
+
+/* navigation bar */
+#navigation {
+  background-color: black;
+}
+#navigation ul {
+  list-style-type: none;
+  position: relative;
+  padding: 3em 0 0;
+  text-align: center;
+  margin: 0;
+}
+#navigation ul ul {
+  display: none;
+  position: absolute;
+}
+#navigation ul li {
+  float: left;
+}
+#navigation ul li a {
+  text-align: center;
+  display: block;
+  padding: 1em 0;
+
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  width: 120px;
+}
+#navigation > ul::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#navigation img {
+  width: 315px;
+  height: 115px;
+  margin: 0.5em 1.5em 0.5em;
+  float: left;
+}
+
+/*end navigation bar*/
+
+/* footer */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+#footer p a::after {
+  color: white;
+  text-decoration: none;
+}
+#footer p a::link {
+  color: white;
+}
+#footer p a::hover {
+  color: #7cb9e8;
+}
+#footer p a::visited {
+  color: white;
+}
+#footertwo {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+#middlefooter {
+  float: left;
+}
+#middlefooter a:after {
+  text-decoration: none;
+  color: white;
+}
+#middlefooter a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#middlefooter a:visited {
+  color: white;
+}
+
+#middlefooter a:hover {
+  color: #7cb9e8;
+}
+
+#middlefooter ul {
+  list-style-type: none;
+}
+#rightfooter {
+  float: right;
+  margin-right: 30px;
+}
+#rightfooter a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#rightfooter a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#rightfooter a:hover {
+  color: white;
+}
+
+/*footer*/
+
+/*formatting for the registration page*/
+
+#newAccountHeader {
+  font-family: Helvetica;
+  font-weight: 700;
+  text-align: center;
+}
+
+div input,
+div select {
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  float: right;
+  clear: both;
+  margin-right: 35%;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.555;
+  margin-bottom: 1rem;
+}
+
+div select.registration {
+  width: 408px;
+  height: 32px;
+  border: 2px solid black;
+  background-color: #f6f6f6;
+}
+
+div input.registration {
+  width: 400px;
+  background-color: #f6f6f6;
+}
+
+div label {
+  float: left;
+  width: 5em;
+  width: 150px;
+  margin-left: 34.5%;
+  font-family: Helvetica;
+  border-width: 1px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+div input.registrationSubmit {
+  width: 200px;
+  background-color: #617180;
+  color: white; /*had at white*/
+  margin-right: 43%;
+}
+
+/*ADD EVERYTHING BELOW THIS TO GROUP DRIVE */
+
+/*Javascript Timer*/
+.dealtimer {
+  background-color: #196f3d;
+  color: white;
+  padding: 12px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.maintimer {
+  background-color: #196f3d;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.maintimer a:link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.maintimer a:visited {
+  text-decoration: none;
+  color: white;
+}
+.maintimer a:hover {
+  color: #7cb9e8;
+}
+/*Javascript Timer*/
+
+/*Everything below this add to drive*/
+
+.hiking {
+  width: 70%;
+  max-height: 45%;
+  float: right;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  /*border: 10px solid purple;*/
+}
+
+#hikingText {
+  float: right;
+  margin-right: 5%;
+  margin-left: 1%;
+  margin-top: 15%;
+  text-align: center;
+  /*border: 10px solid purple;*/
+}
+
+#hikingText p {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 1%;
+}
+
+.bootButton {
+  background-color: white;
+  text-align: center;
+  width: 100px;
+}
+
+.bootButton:hover {
+  background-color: #a9a9a9;
+  cursor: pointer;
+}
+
+.running {
+  width: 70%;
+  max-height: 45%;
+  float: left;
+  margin-right: 1%; /*15px*/
+  margin-top: 1%; /*10px*/
+  margin-bottom: 1%; /*10px*/
+  /*border: 10px solid blue;*/
+}
+
+.relaxing {
+  width: 70%;
+  max-height: 45%;
+  float: right;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /*border: 10px solid red;*/
+}
+
+#runningText {
+  float: right;
+  margin-right: 5%; /*120px*/
+  margin-top: 15%; /*165px*/
+  text-align: center;
+  /*border: 10px solid blue;*/
+}
+
+#runningText p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.athleticButton {
+  background-color: white;
+  text-align: center;
+  width: 100px;
+  margin-right: 85px;
+  /*border: 10px solid blue;*/
+}
+
+.athleticButton:hover {
+  background-color: #a9a9a9;
+  cursor: pointer;
+}
+
+#comforText {
+  text-align: center;
+  float: right;
+  margin-right: 140px;
+  margin-top: 165px;
+  /*border: 10px solid red;*/
+}
+
+#comforText p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.comfortButton {
+  background-color: white;
+  text-align: center;
+  width: 100px;
+  margin-right: 85px;
+  /*border: 10px solid red;*/
+}
+
+.comfortButton:hover {
+  background-color: #a9a9a9;
+  cursor: pointer;
+}
+
+.fab fa-twitter fa-3x {
+  width: 500px;
+}
+
+/*Main*/
+
+/* end registation page*/
